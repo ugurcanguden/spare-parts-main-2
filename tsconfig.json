@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": { 
+      "@cryptobigbang/*": [
+        "./*", 
+      ],
+      "@cryptobigbang-constants":["./libs/constants/index.tsx"],
+      "@cryptobigbang-layout" :  ["./libs/layout/index.tsx"],
+      "@cryptobigbang-components":["./libs/components/index.tsx"],
+      "@cryptobigbang-models":["./libs/models/index.tsx"],
+      "@cryptobigbang-dtos":["./libs/dtos/index.tsx"],
+      "@cryptobigbang-enums":["./libs/enums/index.tsx"],
+      "@cryptobigbang-services":["./libs/services/index.tsx"],
+      "@cryptobigbang-core":["./libs/core/index.tsx"],
+      "@cryptobigbang-sections":["./libs/sections/index.tsx"]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "sections/product.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,482 @@
+{
+    "common": {
+        "logout": "Çıkış Yap",
+        "login": "Giriş Yap",
+        "next": "İleri",
+        "detail": "Detay",
+        "delete": "Sil",
+        "update": "Güncelle",
+        "add": "Ekle",
+        "new": "Yeni",
+        "addingSuccessful": "Ekleme Başarılı",
+        "registrationAlreadyExistsForInsert": "Ekleme başarısız.Kayıt zaten var.",
+        "updateSuccessful": "Güncelleme Başarılı",
+        "registrationAlreadyExistsForUpdate": "Güncelleme başarısız.Kayıt zaten var.",
+        "actions": "İşlemler",
+        "sureDelete": "Silmek istediğinize emin misiniz?",
+        "sureDo": "Bu işlemi yapmak istediğinize emin misiniz?",
+        "processSuccessful": "İşlem Başarılı",
+        "processUnSuccessful": "İşlem Başarısız",
+        "yes": "Evet",
+        "no": "Hayır",
+        "deleteSuccessful": "Silme Başarılı",
+        "deleteUnSuccessful": "Silme başarısız",
+        "search": "Ara",
+        "select": "Seç",
+        "durationType": {
+            "day": "Gün",
+            "hour": "Saat",
+            "minute": "Dakika",
+            "month": "Ay",
+            "second": "Saniye",
+            "week": "Hafta",
+            "year": "Yıl"
+        },
+        "active": "Active",
+        "passive": "Passive",
+        "clear": "Temizle",
+        "filter": "Filtre",
+        "customerTelephoneStatus": {
+            "unVerified": "Doğrulanmamış",
+            "deleted": "Silinmiş",
+            "verified": "Doğrulanmış"
+        }
+    },
+    "menu": {
+        "menuExist": "Çıkış",
+        "menuHome": "Anasayfa",
+        "menuCustomer": "Müşteriler",
+        "menuUser": "Kullanıcılar",
+        "menuCatalog": "Katalog",
+        "menuParameterGroup": "Parametre Grup Tanımlamaları",
+        "menuParameter": "Parametre Tanımlamaları",
+        "menuParameterGroupList": "Parametre Grupları",
+        "menuParameterList": "Parametreler",
+        "menuCountryList": "Ülkeler",
+        "menuCalenderList": "Ülke Takvimleri - İş Günleri",
+        "menuDMS": "Doküman Yönetimi",
+        "menuDocumentGroupList": "Doküman Grupları",
+        "menuNotificationGroupList": "Bildirim Grubu",
+        "menuNotification": "Bildirimler",
+        "menuWhiteList": "WhiteList",
+        "menuNotificationStatus": "Bildirim Gönderim Durumları",
+        "menuAssetList": "Varlıklar",
+        "menuAssetNetworkList": "Varlık Ağı",
+        "menuFiatDetailList": "Fiat Detay",
+        "menuNetworkList": "Ağlar",
+        "menuNetworkTypeList": "Ağ Türü",
+        "menuNetworkTypeDefinitionList": "Ağ Türü Tanımlama",
+        "menuAsset": "Assetler",
+        "menuSettings":"Ayarlar",
+        "menus":"Menüler",
+        "menuRoles":"Menu Rol İlişkileri",
+        "applicationdefinition":"Uygulama Tanımlama",
+        "menuFee": "Masraf",
+        "menuFeeList": "Masraf Tanimi",
+        "menuApproval": "Onay",
+        "menuReporting": "Rapor",
+        "menuReportingList" : "Raporlar",
+        "menuReportingDefinition" : "Rapor Tanımlama",
+        "menuConfidentiality" : "Gizlilik",
+        "menuConfidentialityDefinition": "Gizlilik Tanimlama"
+    },
+    "breadcrumb": {
+        "home": "CryptoBigBang",
+        "catalog": "Katalog",
+        "parameterGroupList": "Parametre Grupları",
+        "parameterList": "Parametreler",
+        "countryList": "Ülkeler",
+        "calenderList": "Ülke Takvimleri - İş Günleri",
+        "documentGroupList": "Doküman Grupları",
+        "documentList": "Dokümanlar",
+        "dms": "Doküman Yönetimi",
+        "notification": "Bildirimler",
+        "notificationGroupDefinitionList": "Bildirim Grubu",
+        "notificationDefinitionList": "Bildirim Tanımlama",
+        "menuNotification": "Bildirimler",
+        "emailnotificationtemplateList": "Mail Bildirimleri",
+        "smsnotificationtemplateList": "Sms Bildirimleri",
+        "whitelistList": "White List",
+        "notificationStatus": "Bildirim Gönderim Durumları",
+        "asset": "Assetler",
+        "assetList": "Varlıklar",
+        "assetNetworkList": "Varlık Ağı",
+        "fiatDetailList": "Fiat Detay",
+        "networkList": "Ağlar",
+        "networkTypeList": "Ağ Tipi",
+        "networkTypeDefinitionList": "Ağ Türü Tanımlama",
+        "customer": {
+            "home": "Müşteriler",
+            "customerDetail": "Müşteri Detay"
+        }
+    },
+    "dashboard": {
+        "header": {
+            "userMenu": {
+                "profile ": "Profil"
+            }
+        },
+        "profile": {
+            "userName": "Kullanıcı Adı",
+            "firstName": "İsim",
+            "lastName": "Soyisim",
+            "telephone": "Telefon",
+            "email": "Email",
+            "emailVerified": "E-posta Onay Durumu"
+        }
+    },
+    "welcomePage": {
+        "welcomeMessage": "CryptoBigBang'a hoş geldiniz!",
+        "SignIn": "Başlamak için giriş yapın",
+        "GoToLogin": "Girişe git"
+    },
+    "settingPage": {
+        "language": "Dil",
+        "direction": "Yön",
+        "theme": "Tema"
+    },
+    "customerPage": {
+        "customerDetailPage": {
+            "tabNameSummary": "Özet",
+            "tabNameAsset": "Varlık",
+            "tabNameCredit": "Kredi",
+            "tabNameTreasure": "Hazine",
+            "tabNameUserActivities": "Aktiviteler",
+            "tabNameProfile": "Profil",
+            "tabNamefinancial": "Finansal",
+            "tabNameAccount": "Hesap",
+            "tabNameBlocked": "Bloke",
+            "tabNameLimit": "Kısıt",
+            "tabNameKOLAS": "Kolay Adres",
+            "tabNameCustomerDocuments": "Dokümanlar",
+            "profile": {
+                "general": "Genel",
+                "identity": "Kimlik",
+                "contact": "İletişim",
+                "gsm": "GSM",
+                "email": "Email",
+                "phones": "Kayıtlı Telefonlar",
+                "documents": "Dokümanlar"
+            },
+            "customerAccounts": {
+                "assetSymbol": "Varlık",
+                "balance": "Bakiye",
+                "availableBalance": "Kullanılabilir Bakiye",
+                "blockedBalance": "Bloke Edilen Bakiye",
+                "transactionTime": "İşlem Tarihi",
+                "amount": "İşlem Tutarı",
+                "transactionTypeWithdraw": "Para Çekme",
+                "transactionTypeDeposit": "Para Yatırma",
+                "transactionType": "İşlem Tipi",
+                "logDetail": "Log Detay",
+                "transactionSourceId": "Kaynak Id",
+                "transactionSource": "Kaynak"
+            },
+            "assets": {
+                "assetId": "Asset Id",
+                "address": "Adres",
+                "tag": "Etiket",
+                "eosAccountName": "EOS Hesap Adı",
+                "legacyAddress": "Eski Adres"
+            }
+        },
+        "customerList": {
+            "identityUserId": "Kullanıcı Id",
+            "firstName": "İsim",
+            "middleName": "Middle Name",
+            "lastName": "Soyisim",
+            "username": "Kullanıcı Adı",
+            "email": "Email",
+            "nationalIdentityNumber": "Ulusal Kimlik Numarası",
+            "birthDay": "Doğum Günü",
+            "birthMonth": "Doğum Ayı",
+            "birthDate": "Doğum Yılı",
+            "referralId": "Referans Id",
+            "customerPhone": "Müşteri Telefonları"
+        },
+        "customerPhoneList": {
+            "type": "Tipi",
+            "customerTelephoneTypeMobile": "Mobil",
+            "customerTelephoneTypeHome": "Ev",
+            "customerTelephoneTypeWork": "İş",
+            "status": "Durumu",
+            "isDefaultNumber": "Varsayılan",
+            "number": "Numara",
+            "countryCode": "Ülke Kodu"
+        }
+    },
+    "parameterGroupPage": {
+        "columns": {
+            "groupCode": "Grup Kodu",
+            "description": "Açıklama"
+        },
+        "groupCode": "Grup Kodu",
+        "description": "Açıklama",
+        "errorMessage": "Kayıt zaten var."
+    },
+    "parameterPage": {
+        "columns": {
+            "groupCode": "Grup Kodu",
+            "parameterCode": "Parametre Kodu",
+            "value": "Değer",
+            "description": "Açıklama",
+            "order": "Sıra",
+            "valueType": "Parametre özelliği",
+            "createdTime": "Oluşturulma Tarihi",
+            "updatedTime": "Son Güncelleme Tarihi"
+        },
+        "groupCode": "Grup Kodu",
+        "parameterCode": "Parametre Kodu",
+        "value": "Değer",
+        "description": "Açıklama",
+        "order": "Sıra",
+        "valueType": "Parametre özelliği"
+    },
+    "countryPage": {
+        "selectCountry": "Ülke Seç",
+        "columns": {
+            "commonName": "Adı",
+            "officialName": "Resmi Adı",
+            "nativeName": "Yerli Adı",
+            "region": "Bölge",
+            "subRegion": "Alt Bölge",
+            "alpha3Code": "Ülke Kodu"
+        },
+        "detail": {
+            "title": "Ülke Bilgileri",
+            "commonName": "Adı",
+            "officialName": "Resmi Adı",
+            "nativeName": "Yerli Adı",
+            "region": "Bölge",
+            "subRegion": "Alt Bölge",
+            "alpha2Code": "Alpha-2 Code",
+            "alpha3Code": "Country Code",
+            "numericCode": "Ülke Kodu",
+            "tld": "Top-Level Domain",
+            "borderCountries": "Komşu Ülke Kodları",
+            "currencies": "Para Birimi",
+            "callingCodes": "Telefon Kodu"
+        }
+    },
+    "calenderPage": {
+        "selectCountry": "Takvimi görmek için ülke seçiniz",
+        "weekDay": {
+            "weekDays": "Çalışma Günlerini Düzenle",
+            "update": "Çalışma Günlerini Düzenle",
+            "monday": "Pazartesi",
+            "tuesday": "Salı",
+            "wednesday": "Çarşamba",
+            "thursday": "Perşembe",
+            "friday": "Cuma",
+            "saturday": "Cumartesi",
+            "sunday": "Pazar"
+        },
+        "countryCode": "Ülke Kodu",
+        "holidayName": "Tatil Adı",
+        "holidayDate": "Tarihi",
+        "isRecurring": "Tekrarlı Mı?",
+        "isHalfDay": "Yarım Gün Mü?"
+    },
+    "documentGroupPage": {
+        "columns": {
+            "groupCode": "Grup Kodu",
+            "description": "Açıklama"
+        },
+        "groupCode": "Grup Kodu",
+        "description": "Açıklama",
+        "errorMessage": "Kayıt zaten var.",
+        "documentAdd": "Doküman Ekle"
+    },
+    "documentPage": {
+        "columns": {
+            "code": "Doküman Kodu",
+            "description": "Açıklama",
+            "documentContentType": "Doküman Tipi"
+        },
+        "code": "Doküman Kodu",
+        "description": "Açıklama",
+        "documentContentType": "Doküman Tipi",
+        "documentAdd": "Doküman Ekle"
+    },
+    "notificationDefinitionPage": {
+        "emailNotificationTemplate": "Mail Taslakları",
+        "smsnotificationtemplate": "SMS  Taslakları",
+        "columns": {
+            "code": "Bildirim Kodu",
+            "description": "Açıklama",
+            "durationType": "Süre Tipi",
+            "expireDuration": "Sona Erme Süresi",
+            "notificationPriority": "Bildirim Önceliği",
+            "isPassive": "Pasif Mi"
+        },
+        "groupCode": "Grup Kodu",
+        "code": "Bildirim Kodu",
+        "description": "Açıklama",
+        "durationType": "Süre Tipi",
+        "expireDuration": "Sona Erme Süresi",
+        "notificationPriority": "Bildirim Önceliği",
+        "isPassive": "Pasif Mi",
+        "notificationPriorityHigh": "Yüksek",
+        "notificationPriorityLow": "Düşük",
+        "notificationPriorityMedium": "Orta",
+        "notificationPriorityUrgent": "Acil"
+    },
+    "notificationGroupDefinitionPage": {
+        "notificationAdd": "Bildirim Ekle",
+        "columns": {
+            "groupCode": "Grup Kodu",
+            "description": "Açıklama"
+        },
+        "groupCode": "Grup Kodu",
+        "description": "Açıklama"
+    },
+    "emailNotificationTemplatePage": {
+        "columns": {
+            "languageCode": "Bildirim Dili",
+            "subject": "Bildirim Konusu",
+            "htmlContent": "Html Bildirim İçeriği",
+            "plainTextContent": "PlainText Metin İçeriği",
+            "senderAddress": "Gönderen Adresi",
+            "replyTo": "Yanıtlayan",
+            "maxRetryCount": "Maksimum Tekrar Deneme Adeti",
+            "provider": "Sağlayıcı"
+        },
+        "languageCode": "Bildirim Dili",
+        "subject": "Bildirim Konusu",
+        "htmlContent": "Bildirim İçeriği",
+        "plainTextContent": "Metin İçeriği",
+        "senderAddress": "Gönderen Adresi",
+        "replyTo": "Yanıtlayan",
+        "maxRetryCount": "Maksimum Tekrar Deneme Adeti",
+        "provider": "Sağlayıcı"
+    },
+    "smsNotificationTemplatePage": {
+        "columns": {
+            "languageCode": "Bildirim Dili",
+            "content": "Bildirim İçeriği",
+            "maxRetryCount": "Maksimum Tekrar Deneme Adeti",
+            "provider": "Sağlayıcı"
+        },
+        "languageCode": "Bildirim Dili",
+        "content": "Bildirim İçeriği",
+        "maxRetryCount": "Maksimum Tekrar Deneme Adeti",
+        "provider": "Sağlayıcı"
+    },
+    "whiteListPage": {
+        "columns": {
+            "email": "Email",
+            "validDateRange": "Geçerli Olduğu Tarih Aralığı"
+        },
+        "email": "Email",
+        "validDateRange": "Geçerli Olduğu Tarih Aralığı"
+    },
+    "notificationReportPage": {
+        "columns": {
+            "email": "Email",
+            "cc": "cc",
+            "bcc": "bcc",
+            "subject": "Konu",
+            "content": "İçerik",
+            "dispatchedDate": "Tarih",
+            "dispatchedTime": "Saat"
+        },
+        "email": "Email",
+        "beginDate": "Başlangıç Tarihi",
+        "endDate": "Bitiş Tarihi"
+    },
+    "assetPage": {
+        "name": "İsim",
+        "symbol": "Sembol",
+        "type": "Tipi",
+        "columns": {
+            "name": "İsim",
+            "symbol": "Sembol",
+            "type": "Tipi"
+        }
+    },
+    "assetNetworkPage": {
+        "assetId": "Varlık",
+        "networkTypeDefinitionId": "Ağ Türü",
+        "vaultAssetId": "Asset Id",
+        "minDeposit": "Min. Depozito",
+        "minWithdraw": "Min. Para Çekme",
+        "withdrawFee": "Geri çekme ücreti",
+        "isSameAddress": "Aynı Adres",
+        "columns": {
+            "asset": "Varlık",
+            "networkTypeDefinition": "Ağ Türü",
+            "vaultAssetId": "Asset Id",
+            "minDeposit": "Min. Depozito",
+            "minWithdraw": "Min. Para Çekme",
+            "withdrawFee": "Geri çekme ücreti",
+            "isSameAddress": "Aynı Adres"
+        }
+    },
+    "fiatDetailPage": {
+        "minDeposit": "Min. Depozito",
+        "minWithdraw": "Min. Para Çekme",
+        "asset": "Varlık",
+        "label": "Etiket",
+        "columns": {
+            "minDeposit": "Min. Depozito",
+            "minWithdraw": "Min. Para Çekme",
+            "asset": "Varlık",
+            "label": "Etiket"
+        }
+    },
+    "networkPage": {
+        "name": "İsim",
+        "symbol": "Sembol",
+        "columns": {
+            "name": "İsim",
+            "symbol": "Sembol"
+        }
+    },
+    "networkTypePage": {
+        "utxO_Based": "UTXO Based",
+        "name": "İsim",
+        "columns": {
+            "utxO_Based": "UTXO Based",
+            "name": "İsim"
+        }
+    },
+    "networkTypeDefinitionPage": {
+        "network": "Ağ",
+        "networkType": "Ağ Tipi",
+        "columns": {
+            "network": "Ağ",
+            "networkType": "Ağ Tipi"
+        }
+    },
+    "userPage": {
+        "password": "Şifre",
+        "identityUserId": "Kullanıcı Id",
+        "firstName": "İsim",
+        "lastName": "Soyisim",
+        "username": "Kullanıcı Adı",
+        "email": "Email",
+        "role": "Rol",
+        "nationalIdentityNumber": "Ulusal Kimlik Numarası",
+        "sendNewPassword":"Yeni Şifre Gönder"
+    },
+    "rolePage":{
+        "name":"Role Adı",
+        "description" : "Açıklama",
+        "status":"Durumu",
+        "addMenuMapping":"Menü İlişkileri",
+        "setRoleApiDefinitionMapping":"İşlem Yetkileri" 
+    },
+    "apiDefinitionPage":{
+        "httpRequestMethod":"Request Method",
+        "apiPathFormat":"Api Adres Format",
+        "apiPath":"Api Adresi",
+        "apiPathRegex":"Regex",
+        "scopeKey":"Scope Key"
+    },
+    "applicationDefinitionPage":{
+        "name":"Uygulama Adı",
+        "description":"Açıklama",
+        "type":"Tipi",
+        "apiDefinitionPageAdd":"Api Tanımı Ekle"
+    }
+}

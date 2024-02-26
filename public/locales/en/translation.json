@@ -1,0 +1,486 @@
+{
+    "common": {
+        "logout": "Logout",
+        "login": "Login",
+        "next": "Next",
+        "detail": "Detail",
+        "delete": "Delete",
+        "update": "Update",
+        "add": "Add",
+        "new": "New",
+        "addingSuccessful": "Add Successful",
+        "registrationAlreadyExistsForInsert": "Add failed. Record already exists.",
+        "updateSuccessful": "Update Successful",
+        "registrationAlreadyExistsForUpdate": "Update failed. Registration already exists.",
+        "actions": "Actions",
+        "sureDelete": "Are you sure you want to delete?",
+        "sureDo": "Are you sure you want to do this?",
+        "processSuccessful": "Operation Successful",
+        "processUnSuccessful": "Operation UnSuccessful",
+        "yes": "Yes",
+        "no": "No",
+        "deleteSuccessful": "Deletion successful",
+        "deleteUnSuccessful": "Delete failed",
+        "search": "Search",
+        "select":"Select",
+         "durationType":{
+            "day":"Day",
+            "hour":"Hour",
+            "minute":"Minute",
+            "month" : "Month",
+            "second":"Second",
+            "week":"Week",
+            "year":"Year"
+        },
+        "active" : "Active",
+        "passive":"Passive",
+        "clear":"Clear",
+        "filter":"Filter",
+        "customerTelephoneStatus":{
+            "unVerified":"UnVerified",
+            "deleted":"Deleted",
+            "verified":"Verified"
+        }
+
+    },
+    "menu": {
+        "exist": "Çıkış",
+        "menuHome": "Home",
+        "menuCustomer": "Customers",
+        "menuUser": "Users",
+        "menuCatalog": "Catalog",
+        "moenuParameterGroup": "Parameter Group Definitions",
+        "menuParameter": "Parametre Definitions",
+        "menuParameterGroupList": "Parameter Groups",
+        "menuParameterList": "Parameters",
+        "menuCountryList": "Countries",
+        "menuCalenderList":"Country Calendars - Business Days",
+        "menuDMS": "Digital Media Management",
+        "menuDocumentGroupList": "Document Groups",
+        "menuNotificationGroupList" : "Notification Groups",
+        "menuNotification":"Notifications",
+        "menuWhiteList":"WhiteList",
+        "menuNotificationStatus":"Notification Send Status",
+        "menuAssetList":"Asset List",
+        "menuAssetNetworkList":"Asset Networks",
+        "menuFiatDetailList":"Fiat Details",
+        "menuNetworkList":"Networks",
+        "menuNetworkTypeList":"Network Types",
+        "menuNetworkTypeDefinitionList":"Network Type Definitions",
+        "menuAsset": "Assets",
+        "menuSettings":"Settings",
+        "menus":"Menus",
+        "menuRoles":"Menu Role Relationships",
+        "applicationdefinition":"Application Definition",
+        "menuFee": "Fee",
+        "menuFeeList": "Fee Definition",
+        "menuApproval": "Approval",
+        "menuReporting": "Reporting",
+        "menuReportingList" : "Reports",
+        "menuReportingDefinition" : "Raport Definition",
+        "menuConfidentiality" : "Confidentiality",
+        "menuConfidentialityDefinition": "Confidentiality Definition"
+    },
+    "breadcrumb": {
+        "home": "CryptoBigBang",
+        "catalog": "Catalog",
+        "parameterGroupList": "Parameter Groups",
+        "parameterList": "Parameters",
+        "countryList":"Countries",
+        "calenderList":"Country Calendars - Business Days",
+        "documentGroupList": "Document Groups",
+        "documentList": "Documents",
+        "dms": "Digital Media Management",
+        "notification": "Notifications",
+        "notificationGroupDefinitionList": "Notifications Groups",
+        "notificationDefinitionList":"Notification Definitions", 
+        "menuNotification":"Notifications",
+        "emailnotificationtemplateList":"Email Notifications",
+        "smsnotificationtemplateList":"Sms Notifications",
+        "whitelistList":"White List",
+        "notificationStatus":"Notification Send Status",
+        "asset":"Assets",
+        "assetList":"Assets",
+        "assetNetworkList":"Asset Networks",
+        "fiatDetailList":"Fiat Details",
+        "networkList":"Networks",
+        "networkTypeList":"Network Types",
+        "networkTypeDefinitionList":"Network Type Definitions",
+        "customer":{
+            "home":"Customers",
+            "customerDetail":"Customer Detail"
+
+        }
+    },
+    "dashboard": {
+        "header": {
+            "userMenu": {
+                "profile ": "Profile"
+            },
+            "profile": {
+                "userName": "User Name",
+                "firstName": "First Name",
+                "lastName": "Last Name",
+                "telephone": "Telephone",
+                "email": "Email",
+                "emailVerified": "Email Confirmation Status"
+            }
+        }
+    },
+    "welcomePage": {
+        "welcomeMessage": "Welcome to CryptoBigBang!",
+        "SignIn": "Sign In To Get Started",
+        "GoToLogin": "Go to Login"
+    },
+    "settingPage": {
+        "language": "Language",
+        "direction": "Direction",
+        "theme":"Theme"
+    },
+    "customerPage": {
+        "customerDetailPage":{
+            "tabNameSummary":"Summary",
+            "tabNameAsset":"Asset",
+            "tabNameCredit":"Credit",
+            "tabNameTreasure" : "Treasure",
+            "tabNameUserActivities":"User Activities",
+            "tabNameProfile":"Profile",
+            "tabNamefinancial":"Financial",
+            "tabNameAccount":"Account",
+            "tabNameBlocked":"Blocked",
+            "tabNameLimit" : "Limit",
+            "tabNameKOLAS":"Easy Address",
+            "tabNameCustomerDocuments":"Documents",
+            "profile":{
+                "general":"General",
+                "identity":"Identity",
+                "contact": "Contact",
+                "gsm":"GSM",
+                "email":"Mail",
+                "phones":"Phones",
+                "documents":"Documents"
+            },
+            "customerAccounts":{
+                "assetSymbol":"Asset Symbol",
+                "balance":"Balance",
+                "availableBalance" : "Available Balance",
+                "blockedBalance" : "Blocked Balance",
+                "transactionTime":"Transaction Time",
+                "amount":"Amount", 
+                "transactionTypeWithdraw":"Withdraw",
+                "transactionTypeDeposit":"Deposit",
+                "transactionType":"Transaction Type",
+                "logDetail":"Log Detail",
+                "transactionSourceId":"Transaction SourceId",
+                "transactionSource":"Transaction Source"
+            },
+            "assets":{
+                "assetId":"Asset Id",
+                "address":"Address",
+                "tag":"Tag",
+                "eosAccountName":"EOS Account Name",
+                "legacyAddress":"Legacy Address"
+            }
+
+        },
+        "customerList": {
+            "identityUserId": "Identity User ID",
+            "firstName": "First Name",
+            "middleName": "Middle Name",
+            "lastName": "Last Name",
+            "username": "User name",
+            "email": "Email",
+            "nationalIdentityNumber": "National Identity Number",
+            "birthDay": "Birth Day",
+            "birthMonth": "Birth Month",
+            "birthDate": "Birth Date",
+            "referralId": "ReferralId",
+            "customerPhone":"Customer Phones"
+        },
+        "customerPhoneList":{
+            "type":"Type",
+            "customerTelephoneTypeMobile":"Mobile",
+            "customerTelephoneTypeHome" : "Home",
+            "customerTelephoneTypeWork" : "Work",
+            "status":"Status",
+            "isDefaultNumber":"Is Default Number",
+            "number":"Number",
+            "countryCode" : "Country Code"
+        }
+    },
+    "parameterGroupPage": {
+        "columns": {
+            "groupCode": "Group Code",
+            "description": "Description"
+        },
+        "groupCode": "Group Code",
+        "description": "Description",
+        "errorMessage": "Registration already exists."
+    },
+    "parameterPage": {
+        "columns": {
+            "groupCode": "Group Code",
+            "parameterCode": "Parameter Code",
+            "value": "Value",
+            "description": "Description",
+            "order": "Order",
+            "valueType": "Value Type",
+            "createdTime": "Created Time",
+            "updatedTime": "Updated Time"
+        },
+        "groupCode": "Group Code",
+        "parameterCode": "Parameter Code",
+        "value": "Value",
+        "description": "Description",
+        "order": "Order",
+        "valueType": "Value Type"
+    },
+    "countryPage": {
+        "columns": {
+            "commonName": "Common Name",
+            "officialName": "Official Name",
+            "nativeName": "Native Name",
+            "region": "Region",
+            "subRegion": "SubRegion",
+            "alpha3Code":"Country Code"
+        },
+        "detail": {
+            "title": "Country Information",
+            "commonName": "Common Name",
+            "officialName": "Official Name",
+            "nativeName": "Native Name",
+            "region": "Region",
+            "subRegion": "Subregion",
+            "alpha2Code": "Alpha-2 Code",
+            "alpha3Code": "Country Code",
+            "numericCode": "Numeric Code",
+            "tld": "Top-Level Domain",
+            "borderCountries": "Border Countries",
+            "currencies": "Currencies",
+            "callingCodes": "Calling Codes"
+        },
+        "selectCountry":"Select Country"
+    }    ,
+    "calenderPage": {
+        "selectCountry": "Select a Country to View the Calendar",
+        "weekDay": {
+            "weekDays": "Edit Working Days",
+            "update": "Edit Working Days",
+            "monday": "Monday",
+            "tuesday": "Tuesday",
+            "wednesday": "Wednesday",
+            "thursday": "Thursday",
+            "friday": "Friday",
+            "saturday": "Saturday",
+            "sunday": "Sunday"
+        },
+        "countryCode": "Country Code",
+        "holidayName": "Holiday Name",
+        "holidayDate": "Date",
+        "isRecurring": "Is Recurring?",
+        "isHalfDay": "Is Half Day?"
+    },
+    "documentGroupPage": {
+        "columns": {
+            "groupCode": "Group Code",
+            "description": "Description"
+        },
+        "groupCode": "Group Code",
+        "description": "Description",
+        "errorMessage": "Registration already exists.",
+        "documentAdd":"Document Add" 
+    },
+    "documentPage": {
+        "columns": {
+            "code": "Document Code",
+            "description": "Description",
+            "documentContentType" : "Document Content Type"
+        },
+        "code": "Document Code",
+        "description": "Description",
+        "documentContentType" : "Document Content Type",
+        "documentAdd": "Document Add"
+    },
+    "notificationDefinitionPage":{
+        "emailNotificationTemplate":"Email Template",
+        "smsnotificationtemplate":  "SMS  Template",
+        "columns":{
+            "code":"Notification Code",
+            "description":"Description",
+            "durationType":"Duration Type",
+            "expireDuration":"Expire Duration",
+            "notificationPriority":"Notification Priority",
+            "isPassive" : "Is Passive"
+        },
+        "groupCode":"Group Codu",
+        "code":"Notification Code",
+        "description":"Description",
+        "durationType":"Duration Type",
+        "expireDuration":"Expire Duration",
+        "notificationPriority":"Notification Priority",
+        "isPassive" : "Is Passive",
+        "notificationPriorityHigh":"High",
+        "notificationPriorityLow" : "Low",
+        "notificationPriorityMedium":"Medium",
+        "notificationPriorityUrgent":"Urgent"
+
+    },
+    "notificationGroupDefinitionPage": {
+        "notificationAdd": "Notification Add",
+        "columns": {
+            "groupCode":"Group Code", 
+            "description":"Description"
+        },
+        "groupCode":"Group Code", 
+        "description":"Description"
+    },
+    "emailNotificationTemplatePage":{
+        "columns": {
+            "languageCode": "Language Code",
+            "subject": "Subject",
+            "htmlContent":"HtmlContent",
+            "plainTextContent":"Plain Text Content",
+            "senderAddress":"Sender Address",
+            "replyTo":"Reply To",
+            "maxRetryCount" : "Max Retry Count",
+            "provider": "Provider"
+        },
+        "languageCode": "Language Code",
+        "subject": "Subject",
+        "htmlContent":"HtmlContent",
+        "plainTextContent":"Plain Text Content",
+        "senderAddress":"Sender Address",
+        "replyTo":"Reply To",
+        "maxRetryCount" : "Max Retry Count",
+        "provider": "Provider"
+    },
+    "smsNotificationTemplatePage":{
+        "columns": {
+            "languageCode": "Language Code",
+            "content":"Content", 
+            "maxRetryCount" : "Max Retry Count",
+            "provider":  "Provider"
+        },
+        "languageCode": "Language Code",
+        "content":"Content", 
+        "maxRetryCount" : "Max Retry Count",
+        "provider":  "Provider"
+    },
+    "whiteListPage":{
+        "columns":{
+            "email":"Email",
+            "validDateRange":"Valid Date Range"
+        },
+        "email":"Email",
+        "validDateRange":"Valid Date Range"
+    },
+    "notificationReportPage":{
+        "columns":{
+            "email":"Email",
+            "cc":"cc",
+            "bcc":"bcc",
+            "subject":"Subject",
+            "content":"Content",
+            "dispatchedDate":"Dispatched Date",
+            "dispatchedTime":"Dispatched Time"
+        },
+        "email":"Email",
+        "beginDate":"Begin Date",
+        "endDate":"End Date" 
+    },   
+    "assetPage": {
+        "name": "Name",
+        "symbol": "Symbol",
+        "type": "Type",
+        "columns": {
+            "name": "Name",
+            "symbol": "Symbol",
+            "type": "Type"
+        }
+    },
+    "assetNetworkPage":{
+        "assetId":"Asset",
+        "networkTypeDefinitionId": "Network Type Definition",
+        "vaultAssetId" : "Asset Id",
+        "minDeposit":"Min. Deposit",
+        "minWithdraw":"Min. Withdraw",
+        "withdrawFee":"WithDrawFee",
+        "isSameAddress":"Is Same Address",
+        "columns":{
+            "asset":"Asset",
+            "networkTypeDefinition":"Network Type Definition",
+            "vaultAssetId" :"Asset Id",
+            "minDeposit":"Min. Deposit",
+            "minWithdraw":"Min. Withdraw",
+            "withdrawFee":"WithDrawFee",
+            "isSameAddress":"Is Same Address"
+        }
+    },
+    "fiatDetailPage":{
+        "minDeposit":"Min. Deposit",
+        "minWithdraw":"Min. Withdraw",
+        "asset":"Asset",
+        "label":"Label",
+        "columns":{
+            "minDeposit":"Min. Deposit",
+            "minWithdraw":"Min. Withdraw",
+            "asset":"Asset",
+            "label":"Label"
+        }
+    },
+    "networkPage":{
+        "name":"Name",
+        "symbol":"Symbol",
+        "columns":{
+            "name":"Name",
+            "symbol":"Symbol"
+        }
+    },
+    "networkTypePage":{
+       "utxO_Based":"UTXO Based" ,
+       "name":"Name",
+       "columns":{
+        "utxO_Based":"UTXO Based" ,
+        "name":"Name"
+       }
+    },
+    "networkTypeDefinitionPage":{
+        "network":"Network",
+        "networkType":"Network Type",
+        "columns":{
+            "network":"Network",
+            "networkType":"Network Type"
+        }
+    },
+    "userPage": {
+        "newPassword": "Yeni Şifre Gönder",
+        "identityUserId": "User Id",
+        "firstName": "FirstName",
+        "lastName": "LastName",
+        "username": "Username",
+        "email": "Email",
+        "role": "Role",
+        "nationalIdentityNumber": "National Identity Number",
+        "sendNewPassword":"Send new password"
+    },
+    "rolePage":{
+        "name": "Role Name",
+        "description" : "Description",
+        "status": "Status",
+        "addMenuMapping": "Menu Associations" ,
+        "setRoleApiDefinitionMapping":"Process Authorizations" 
+    },
+    "apiDefinitionPage":{
+        "httpRequestMethod":"Request Method",
+        "apiPathFormat":"Api Path Format",
+        "apiPath":"Api Address",
+        "apiPathRegex":"Regex",
+        "scopeKey":"Scope Key"
+    },
+    "applicationDefinitionPage":{
+        "name":"Application Name",
+        "description":"Description",
+        "type":"Type",
+        "apiDefinitionPageAdd":"Api Definition Add"
+    }
+}

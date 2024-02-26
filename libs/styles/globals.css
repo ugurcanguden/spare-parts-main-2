@@ -1,0 +1,56 @@
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px; /* Sider bileşenin yüksekliği ile uyumlu olacak şekilde ayarlayın */
+    margin: 10px; /* İstenilen dış boşluk değeri */
+  
+  }
+  body { 
+    margin: 0px;
+}
+
+.antlayout{
+  background-color: white; 
+}  
+.odd-row {
+  background-color: #e7e7e7; /* Aralıklı satırlar için gri renk */
+}
+
+.even-row {
+  background-color: #fff; /* Diğer satırlar için beyaz renk */
+}
+
+.main-nav {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.left-nav-menu {
+  position: relative;
+  float: left;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.right-nav-menu {
+  position: relative;
+  float: right;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ant-carousel-slick-dots li {
+   
+  height: 10px; 
+  border-radius: 50%;
+  background-color: rgb(19, 44, 2);
+  margin-right: 20%;
+}
+
+.ant-carousel-slick-dots li.slick-active { 
+ 
+  height: 5px; 
+  border-radius: 50%;
+  background-color: rgb(128, 184, 114);
+} 
